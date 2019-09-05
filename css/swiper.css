@@ -1,0 +1,13 @@
+.swiper-container {
+    width: 100%;
+}
+.swiper-slide__image--titre {
+    width: 225px;
+}
+.swiper-slide__image--artiste {
+    width: 225px;
+    border-radius: 100%;
+}
+.swiper-slide__image--album {
+    width: 225px;
+}

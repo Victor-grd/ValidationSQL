@@ -1,0 +1,78 @@
+.profile-album__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-album__infos{
+    display: flex;
+}
+.profile-album__image{
+    height: 100px;
+    margin-right: 20px;
+}
+.forms{
+    display: flex;
+}
+.btn-action{
+    width: 100px;
+    margin: 0.5em
+}
+input, select {
+    margin: 10px 0;
+}
+
+.user{
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    margin-bottom: 150px;
+    align-items: flex-end;
+    padding-left: 35px;
+    background: #2f2f2f;
+    color: white;
+}
+.user__image{
+    border-radius: 100%;
+    height: 200px;
+    position: relative;
+    top: 100px;
+}
+.user__name{
+    margin: 10px;
+}
+.user__actions{
+    display: flex;
+    position: relative;
+    top: 30px;
+    right: 90px;
+    align-items: baseline;
+}
+.badge {
+    border: none;
+    height: 20px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 640px) {
+    .user{
+        margin-bottom: 75px;
+    }
+    .user__image{
+        border-radius: 100%;
+        height: 100px;
+        position: relative;
+        top: 50px;
+    }
+    .profile-album__image{
+        height: 75px;
+    }
+    .profile-album__infos h3{
+        font-size: 14px;
+    }
+    .btn-action{
+        width: 75px;
+        height: 25px;
+        padding: 0;
+        margin: 0.5em
+    }
+}
