@@ -19,6 +19,7 @@
                     <img class="swiper-slide__image--titre" src="<?= $titre['image'] ?>" alt="" srcset="">
                     <h3><?= $titre['author'] ?> <span><?php if($titre['feat']) echo('feat ' . $titre['feat']) ?></span></h3>
                 </div>
+                <?php if ($key >= 9 && !isset($_SESSION['user'])) break; ?>
             <?php endforeach ?>
         </div>
 
